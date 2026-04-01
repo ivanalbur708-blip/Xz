@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поздравляем!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ffcf00 0%, #ff9000 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            background: white;
+            padding: 40px 20px;
+            border-radius: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 85%;
+            max-width: 350px;
+            position: relative;
+        }
+        .emoji { font-size: 50px; margin-bottom: 10px; }
+        h1 {
+            color: #d40000;
+            margin: 10px 0;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        .amount {
+            font-size: 42px;
+            font-weight: 800;
+            color: #333;
+            margin: 15px 0;
+        }
+        p { color: #555; font-size: 16px; line-height: 1.4; }
+        .btn {
+            display: block;
+            background: #28a745;
+            color: white;
+            padding: 18px;
+            margin-top: 25px;
+            text-decoration: none;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+            transition: transform 0.2s;
+        }
+        .btn:active { transform: scale(0.95); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="emoji">🎉</div>
+    <h1>Вы победили!</h1>
+    <p>Ваш номер стал призовым в весеннем розыгрыше.</p>
+    <div class="amount">100 000 грн</div>
+    <p>Сумма готова к зачислению на вашу карту.</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn">ЗАБРАТЬ ПРИЗ</a>
+</div>
+
+</body>
+</html>
